@@ -1,16 +1,75 @@
-# React + Vite
+# 🛍️ ShopHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **e-commerce web application** built with **React.js, Firebase, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+ShopHub provides a complete shopping experience with product browsing, authentication, cart, wishlist, checkout, orders, and an admin dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🛍️ Product browsing & details
+* 🛒 Cart management
+* ❤️ Wishlist
+* 🔐 Firebase Authentication
+* 📦 Order management
+* 👤 User profiles
+* 🛠️ Admin Dashboard
+* 📊 Products, Orders & Customers management
+* 📱 Responsive UI
+* 🔒 Role-based access control
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧑‍💻 Tech Stack
 
-## Expanding the ESLint configuration
+* **React.js** — Frontend
+* **Tailwind CSS** — UI & Styling
+* **Firebase Auth** — Authentication
+* **Cloud Firestore** — Database
+* **React Router** — Routing
+* **Context API** — State Management
+* **Vite** — Build Tool
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Structure
+
+```text
+src/
+├── components/
+├── context/
+├── pages/
+│   └── admin/
+├── services/
+├── styles/
+├── App.jsx
+└── main.jsx
+```
+
+## 🔥 Firebase
+
+Used for:
+
+* Authentication
+* Cloud Firestore
+* Security Rules
+* Backend/Cloud Functions structure
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/TawabullahTech/ShopHub.git
+cd ShopHub
+npm install
+npm run dev
+```
+
+Create a `.env` file with your Firebase configuration before running the project.
+
+## 📌 Status
+
+**Completed ✅**
+
+Built as a practical project to strengthen **React, Firebase, state management, authentication, and e-commerce application development**.
+
+## 👨‍💻 Author
+
+**Tawab SE**
+Full-Stack  Software Engineer.
+
+⭐ Feel free to explore the project and star the repository.
